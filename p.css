@@ -49,14 +49,16 @@ body{
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
+    height: auto;
+    min-height:100vh;
+    box-sizing:border-box;
     background: url(Images/bcc.jpg) no-repeat;
     background:rgb(22, 141, 145);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    padding:160px 10% 0;
+    padding:70px 10%;
     flex-direction: row;
     flex-wrap:wrap;
 }
@@ -78,6 +80,8 @@ body{
 .home-content{
    max-width: 600px;
     text-align:left;
+      margin: 0;
+  padding: 0;
 }
 .home-content h3{
     font-size: 32px;
