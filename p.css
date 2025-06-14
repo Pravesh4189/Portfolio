@@ -857,22 +857,28 @@ font-size: 7vw;
     padding:  0 10%;
     height:100vh;  
     box-sizing:border-box;
-    position:relative;
+    gap:30px;
     }
 .home-content {
     flex: 1;
     text-align: left;
+      margin: 0;
+    padding: 0;
     } 
    .home-img {
     flex: 1;
     display:flex;
     justify-content: center;
+    align-items:center;
      }
      .home-img img {
         width: 300px;
         height: 300px;
         object-fit: cover;
     }
+      .home-imgHover {
+    display: none; /* Hide it if unused */
+  }
     .about {
         flex-direction: row;
         padding: 50px 10%;
