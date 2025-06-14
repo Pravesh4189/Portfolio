@@ -61,7 +61,7 @@ section.home {
     justify-content: space-between;
     min-height:100vh;
     box-sizing:border-box;
-    background:url("Images/bcc.png") no-repeat center rgb(22, 141, 145);
+    background:url("Images/bcc.png") no-repeat center center/cover rgb(22, 141, 145);
     display: flex;
     align-items: center;
     padding:70px 10%;
