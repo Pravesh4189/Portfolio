@@ -733,47 +733,35 @@ section
     border-radius: 0.5rem;
 }
 @media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        padding: 10px 5%;
+    /* Prevent horizontal overflow on body or main containers */
+    body, html {
+        overflow-x: hidden;
     }
-    .navbar a {
-        font-size: 18px;
-        margin-left: 0;
-        padding: 8px 12px;
-    }
+    /* Home container adjustments */
     .home {
-        padding: 20px 5%;
-        height: auto;
-        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto; /* let height adapt */
+        overflow-x: hidden; /* hide horizontal overflow */
+        flex-direction: column; /* stack children vertically */
+        max-width: 100vw; /* limit width to viewport */
     }
-    .home-content h1 {
-        height: auto; 
-        font-size: 6vw; 
-        line-height: 1.2; 
-        text-align: center; 
-        padding: 10px 0;
-    }
-    .home-img img {
-        width: 200px;
-        height: 200px;
-    }
-    .about {
-        flex-direction: column;
-        padding: 40px 5%;
+    /* Home content width should not overflow */
+    .home-content {
+        max-width: 100%;
+        width: 100%;
+        padding: 0; /* remove side padding if any */
+        box-sizing: border-box;
         text-align: center;
     }
-    .about-img img {
-        width: 150px;
-        height: 150px;
-    }
-    .services-list {
-        padding: 0 5%;
-        grid-template-columns: 1fr;
-    }
-    .btn-box {
-        font-size: 14px;
-        padding: 10px 20px;
+      .home-img,
+    .home-img img {
+        max-width: 100%;
+        height: auto;
+        width: 100%; /* or max 300px if you want max size on mobile */
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
     }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
