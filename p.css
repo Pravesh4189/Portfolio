@@ -732,10 +732,10 @@ section
     padding: 10px;
     border-radius: 0.5rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .header {
         flex-direction: column;
-        padding: 0px 5%;
+        padding: 10px 5%;
     }
     .navbar a {
         font-size: 18px;
