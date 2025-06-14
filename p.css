@@ -59,9 +59,11 @@ section.home {
 .home{
     background-size: 100% auto;
     justify-content: space-between;
-    min-height:60vh;
+    min-height:100vh;
     box-sizing:border-box;
     background:rgb(22, 141, 145),url(Images/bcc.jpg) no-repeat;
+     background-size: 50% auto;
+     background-position: center;
     display: flex;
     align-items: center;
     padding:70px 10%;
