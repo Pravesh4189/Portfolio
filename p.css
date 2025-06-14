@@ -128,7 +128,7 @@ body{
 }
 .home-sci a:hover
 {
-    background: royalblue;
+    background: rgb(22, 61, 177);
     color:#081b29;
     box-shadow: 0 0 20px cyan;
 }
