@@ -5,6 +5,3 @@ var typed= new Typed(".text",{
     backDelay: 1000,
     loop: true
 });
-window.addEventListener('resize', function() {
-    document.body.style.height = window.innerHeight + 'px';
-});
