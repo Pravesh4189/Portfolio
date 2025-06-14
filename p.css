@@ -7,8 +7,6 @@ font-family: 'poppins',sans-serif;
 body{
     color: #ededed;
     background:rgb(22, 141, 145);
-    overflow-x:hidden;
-    height:100vh;
 }
 .header{
     position:fixed;
@@ -58,7 +56,7 @@ body{
     background-position: center;
     display: flex;
     align-items: center;
-    padding:160px 10% 0;
+    padding:120px 10% 0;
     flex-direction: column;
 }
 .home-img {
@@ -69,9 +67,8 @@ body{
 }
 
 .home-img img {
-    max-width: 100%;      
-    height:auto;
-    margin-top:10px;
+    width:300px;      
+    height:300px;
     object-fit: cover;
     border-radius: 50%; 
     border: 4px solid #0ef;
@@ -755,8 +752,11 @@ section
         flex-direction: column;
     }
  .home-content h1 {
-font-size: 5vw;
-margin: 0;
+ height: auto; 
+        font-size: 6vw; 
+        line-height: 1.2; 
+        text-align: center; 
+        padding: 10px 0;
     }
     .home-img img {
         width: 200px;
