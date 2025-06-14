@@ -853,9 +853,9 @@ font-size: 7vw;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-         padding:  0 10%;; 
+    padding:  0 10%;
     height:100vh;  
-       box-sizing:border-box;
+    box-sizing:border-box;
     
 }
 .home-content {
