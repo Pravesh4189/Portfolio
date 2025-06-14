@@ -8,6 +8,11 @@ body{
     color: #ededed;
     background:rgb(22, 141, 145);
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 .header{
     position:fixed;
     top:0;
@@ -843,10 +848,14 @@ font-size: 7vw;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+         padding: 100px 10% 80px; 
+    height: auto;  
+    
 }
 .home-content {
     flex: 1;
     text-align: left;
+     padding-right: 30px;
 }
    .home-img {
     flex: 1;
