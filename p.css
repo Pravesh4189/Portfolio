@@ -51,7 +51,7 @@ body{
     justify-content: space-between;
     height: 100vh;
     background: url(Images/bcc.jpg) no-repeat;
-    background:  rgb(22, 141, 145);
+    background:rgb(22, 141, 145);
     background-size: cover;
     background-position: center;
     display: flex;
