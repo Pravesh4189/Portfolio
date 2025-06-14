@@ -60,16 +60,12 @@ section.home {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: auto;
-    min-height:100vh;
+    height:100vh;
     box-sizing:border-box;
-    background: url(Images/bcc.jpg) no-repeat;
-    background:rgb(22, 141, 145);
-    background-size: cover;
-    background-position: center;
+    background: url(Images/bcc.jpg) no-repeat center center/cover, rgb(22, 141, 145);
     display: flex;
     align-items: center;
-    padding:70px 10%;
+    padding:0 10%;
     flex-direction: row;
     flex-wrap:wrap;
 }
@@ -78,6 +74,8 @@ section.home {
     display: flex;
     justify-content: center;
     align-items: center;
+      padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .home-img img {
