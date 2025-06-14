@@ -11,7 +11,12 @@ body{
 body, html {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  box-sizing: border-box;
+  height: 100%; 
+}
+
+section.home {
+  display: flex;
 }
 .header{
     position:fixed;
@@ -848,8 +853,9 @@ font-size: 7vw;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-         padding: 100px 10% 80px; 
-    height: auto;  
+         padding:  0 10%;; 
+    height:100vh;  
+       box-sizing:border-box;
     
 }
 .home-content {
