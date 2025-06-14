@@ -58,6 +58,7 @@ body{
     align-items: center;
     padding:120px 10% 0;
     flex-direction: column;
+    flex-wrap:wrap;
 }
 .home-img {
     flex: 1;
@@ -78,7 +79,7 @@ body{
 .home-content{
    max-width: 600px;
     text-align: center;
-    
+    flex:1;
 }
 .home-content h3{
     font-size: 32px;
@@ -746,17 +747,19 @@ section
         padding: 8px 12px;
     }
     .home {
-        padding: 20px 5%;
-        height: auto;
-        flex-direction: column;
+         flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
     }
  .home-content h1 {
- height: auto; 
-        font-size: 6vw; 
-        line-height: 1.2; 
-        text-align: center; 
-        padding: 10px 0;
+ text-align: center;
+    width: 100%;
     }
+    .home-content h3 {
+    opacity: 1; /* show h3 text like "Hello it's me" */
+    animation: none; /* optional to prevent animation delay issue */
+}
     .home-img img {
         width: 200px;
         height: 200px;
@@ -788,13 +791,19 @@ section
         margin-left: 20px;
     }
     .home {
-        padding: 40px 10%;
-        height: 100vh;
-        flex-direction: row;
-    }
-    .home-content h1 {
-        font-size: 40px;
-    }
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+    .home-content {
+    flex: 1;
+    text-align: left;
+}
+    .home-img {
+    flex: 1;
+    justify-content: flex-end;
+}
      .home-img img {
         width: 250px;
         height: 250px;
@@ -821,18 +830,19 @@ section
         font-size: 25px;
         margin-left: 35px;
     }
-    .home {
-        padding: 160px 10% 0;
-        height: 100vh;
-    }
-    .home-content h1 {
-        font-size: 56px;
-        
-    }
-    .home-img img {
-        width: 300px;
-        height: 300px;
-    }
+   .home {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-content {
+    flex: 1;
+    text-align: left;
+}
+   .home-img {
+    flex: 1;
+    justify-content: flex-end;
+}
         .home-img img {
         width: 300px;
         height: 300px;
