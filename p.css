@@ -96,7 +96,8 @@ section.home {
   padding: 0;
 }
 .home-content h3{
-    font-size: 32px;
+    margin-top: 32px;
+    font-size:32px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
