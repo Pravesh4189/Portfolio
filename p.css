@@ -57,17 +57,16 @@ section.home {
     color: #0ef;
 }
 .home{
-    background-size: 100% auto;
-    justify-content: space-between;
-    min-height:100vh;
-    box-sizing:border-box;
     background:rgb(22, 141, 145);
-     background-size: 50% auto;
-     background-position: center;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding:70px 10%;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    padding: 70px 8%;        /* padding reduced */
+    height: auto;            /* ✅ automatic height */
+    box-sizing: border-box;
+    background-size: 50% auto;
+    background-position: center;
 }
 .home-img {
     flex: 1;
@@ -853,8 +852,8 @@ font-size: 7vw;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding:  0 10%;
-    height:100vh;  
+    padding:60px 10%;
+    height:auto;  
     box-sizing:border-box;
     gap:30px;
     }
