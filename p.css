@@ -106,7 +106,7 @@ section.home {
     animation-delay: .7s;
 }
 .home-content h3 span{
-    color: royalblue;
+    color:   rgb(22, 61, 177);
 }
 .home-content h1{
     font-size: 56px;
