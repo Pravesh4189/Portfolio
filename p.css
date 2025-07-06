@@ -86,9 +86,6 @@ section.home {
     border: 4px solid #0ef;
     box-shadow: 0 0 20px rgba(0, 238, 255, 0.5);
 }
-.home-imgHover {
-  display: none;
-}
 .home-content{
    max-width: 600px;
     text-align:left;
