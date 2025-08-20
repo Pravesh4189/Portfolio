@@ -378,16 +378,16 @@ section
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "90%";
-}
-.progress-line.javascript span::after{
     content: "85%";
 }
+.progress-line.javascript span::after{
+    content: "95%";
+}
 .progress-line.bootstrap span::after{
-    content: "75%";
+    content: "85%";
 }
 .progress-line.react span::after{
-    content: "90%";
+    content: "85%";
 }
 .progress-line.tailwind span::after{
     content: "90%";
