@@ -340,16 +340,16 @@ section
     width: 90%;
 }
 .progress-line.css span{
-    width: 90%;
-}
-.progress-line.javascript span{
     width: 85%;
 }
+.progress-line.javascript span{
+    width: 95%;
+}
 .progress-line.bootstrap span{
-    width: 75%;
+    width: 85%;
 }
 .progress-line.react span{
-    width: 90%;
+    width: 85%;
 }
 .progress-line.tailwind span{
     width: 90%;
